@@ -1,11 +1,11 @@
-//window open
+//弹出窗口
 $(".window-button").on("click",function(){
-	var target=$(this).attr('target');
+	var target='.'+$(this).attr('target');
 	$(".filter").fadeIn();
-	$(".window[name="+target+"]").fadeIn();
+	$(target).fadeIn();
 });
 
-//window close
+//关闭当前窗口
 $(".window-dialog-header-close").on("click",function(){
 	$(this).parents(".window").fadeOut();
 	$(".filter").fadeOut();
