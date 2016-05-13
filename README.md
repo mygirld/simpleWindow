@@ -9,20 +9,24 @@
 第一步：引入 css,js文件
 第二部,html页面添加以下代码：
 ```
+<!--
+	1.给input 添加类 window-button和一个target的值,这里是myWindow
+	2.给弹出的窗口添加一个 window类，同时再添加和input的target值相同的类 ,这里是myWindow
+-->
 <input type="button" name="" class="window-button" target='myWindow' value="弹出" />
 <!--window-->
-<div class="window" name='myWindow'>
+<div class="window myWindow">
 	<!--dialog-->
     <div class="window-dialog">
     	<!--header-->
         <div class="window-dialog-header">
             <span class="window-dialog-header-close">×</span>
-            <p>头部</p>
+            <p>hhhhhhhhhhhhhh</p>
         </div>
         <!--body-->
-        <div class="window-dialog-body">主体</div>
+        <div class="window-dialog-body">SSSSSSSS</div>
         <!--footer-->
-        <div class="window-dialog-footer">底部</div>
+        <div class="window-dialog-footer">SSSSSSSSSSSSS</div>
     </div>
 </div>
 <!--滤镜背景-->
